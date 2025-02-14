@@ -1,5 +1,5 @@
     .container{
-        border: 1px solid black;
+        /* border: 1px solid black; */
         
         width:100%;
     }
@@ -18,7 +18,6 @@
    
     font-weight: 700;
 }
-
 .primary-btn5{
     color: white;
     font-family: var(--font-inter);
@@ -38,19 +37,20 @@
     align-items: end;
     justify-content: center;
     gap: 8px;
-    color: var(--text-color);
     font-family: var(--font-inter);
     font-size: 12px;
     font-weight: 500;
     line-height: 1;
     letter-spacing: 0.36px;
-    background-color: transparent;
+    /* background-color: transparent; */
     text-transform: uppercase;
     border-radius: 100px;
     border:1px solid grey;
     padding: 8px 12px;
     position: relative;
     z-index: 1;
+    background-color: aliceblue;
+    color: black;
     margin-bottom: 10px;
 }
 .marquee_text {
@@ -109,8 +109,92 @@
     transform: translateX(-100%);
   }
 }
-/* #clientImg{
-    background-image: url('../../../boom.png');
-    width: 50px;
-    height: 50px; */
-/* } */
+.primary-btn1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#1476a2;  /* Blue background */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;  /* Rounded corners */
+    text-decoration: none;  /* Remove underline */
+    transition: background-color 0.3s ease;
+  }
+  
+  .primary-btn1:hover {
+    background-color: #0056b3;  /* Darker blue when hovered */
+  }
+  
+
+  .about-section1 h2 {
+    color: var(--title-color);
+    font-family: var(--font-hankenGrotesk);
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 0;
+}
+.sub-title5::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    border-radius: 100px;
+    border: 1px solid rgba(11, 12, 12, 0.1);
+    /* background: #eaeaeb; */
+    z-index: -1;
+}
+
+.bold-dark {
+    font-weight: bold;
+    color: rgb(11, 11, 11);  /* Dark color */
+  }
+  
+  .normal-text {
+    font-weight: normal;
+    color: black;  /* Default color for normal text */
+  }
+  .about-section1 .about-content > p {
+    color: var(--text-color);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+.project-count {
+    font-weight: bold; /* Makes the number 1000 bold */
+    display: inline; /* Ensures the number stays inline with the text */
+}
+
+.project-label {
+    display: inline; /* Ensures the word 'Projects' is inline with the number */
+    font-weight: normal; /* Makes the word 'Projects' normal weight */
+}
+
+.description {
+    font-size: 14px; /* Smaller font size for the description */
+    color: #555; /* Slightly lighter color for the description */
+    margin-top: 5px; /* Adds some space between the count and description */
+}
+
+
+
+
+
+
+
+
+    
