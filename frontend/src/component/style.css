@@ -1,0 +1,116 @@
+    .container{
+        border: 1px solid black;
+        
+        width:100%;
+    }
+
+    .navbar.style{
+        background-color: white;
+    }
+
+   .section-title5.two
+    h2{
+
+        font-size: 55px;
+
+         color: var(--title-color);
+    font-family: var(--font-hankenGrotesk);
+   
+    font-weight: 700;
+}
+
+.primary-btn5{
+    color: white;
+    font-family: var(--font-inter);
+    font-size: 13px;
+    font-weight: 700;
+}
+.navbar-nav{
+    font-size: 17px;
+    font-weight: 500;
+}
+.title-serivce{
+
+    margin-right: 180px;
+}
+.sub-title5 {
+    display: inline-flex;
+    align-items: end;
+    justify-content: center;
+    gap: 8px;
+    color: var(--text-color);
+    font-family: var(--font-inter);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.36px;
+    background-color: transparent;
+    text-transform: uppercase;
+    border-radius: 100px;
+    border:1px solid grey;
+    padding: 8px 12px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+.marquee_text {
+    display: flex;
+    align-items: center;
+    animation: marquee 20s linear infinite;
+}
+
+.marquee_text h6, .marquee_text svg {
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+.home1-banner-bottom h6 {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: var(--font-inter);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.home1-banner-bottom .marquee_text {
+    background: #1e1f1f;
+    height: 70px;
+    display: flex
+;
+    align-items: center;
+}
+.home1-banner-bottom {
+    overflow: hidden;
+    display: flex
+;
+    align-items: center;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.marquee_text {
+  display: inline-block;
+  animation: marquee 50s linear infinite; /* Adjust 20s for slower speed */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/* #clientImg{
+    background-image: url('../../../boom.png');
+    width: 50px;
+    height: 50px; */
+/* } */
