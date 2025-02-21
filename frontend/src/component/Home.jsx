@@ -494,9 +494,7 @@ function Home() {
                 </div>
               </div>
 
-              {/* You can repeat these cards as necessary */}
             </div>
-            {/* End of Cards Section */}
             <center>
   <a className="primary-btn1 mt-4">View All Clients</a>
 </center>
@@ -509,7 +507,6 @@ function Home() {
     <div class="about-section pt-5">
     <div class="container">
         <div class="row mb-40">
-            {/* <!-- Left Section - About Text --> */}
             <div class="col-lg-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                 <div class="about-section1 text-start">
                     <span class="sub-title5 two">
@@ -572,61 +569,59 @@ function Home() {
  
     </div>
 </div>
+</div>
 
 
 
 
-
-
-<section class="testimonialSection gradiantBlock mb-50">
-    <div class="container overflow-hidden">
+<section class="  testimonialSection gradiantBlock mb-50 bg-light " >
+    <div class="container-fluid overflow-hidden">
         <div class="row">
             <div class="col-lg-12 mb-70 d-flex flex-wrap gap-3 align-items-center justify-content-between">
-                <div class="section-title5 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <span class="sub-title5 two">
+                <div class="review-sectio wow animate fadeInLeft text-start" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <span class="sub-title5 two">
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
-                            <path d="M3.7081 12.9544C3.41861 13.1128 3.09011 12.8352 3.14861 12.4808L3.7711 8.69694L1.12886 6.01223C0.882112 5.76104 1.01036 5.30186 1.34111 5.25226L5.0146 4.69548L6.6526 1.23399C6.80035 0.922003 7.2001 0.922003 7.34785 1.23399L8.98584 4.69548L12.6593 5.25226C12.9901 5.30186 13.1183 5.76104 12.8708 6.01223L10.2293 8.69694L10.8518 12.4808C10.9103 12.8352 10.5818 13.1128 10.2923 12.9544L6.9991 11.1497L3.7081 12.9544Z">
-                            </path>
+                            <path d="M3.7081 12.9544C3.41861 13.1128 3.09011 12.8352 3.14861 12.4808L3.7711 8.69694L1.12886 6.01223C0.882112 5.76104 1.01036 5.30186 1.34111 5.25226L5.0146 4.69548L6.6526 1.23399C6.80035 0.922003 7.2001 0.922003 7.34785 1.23399L8.98584 4.69548L12.6593 5.25226C12.9901 5.30186 13.1183 5.76104 12.8708 6.01223L10.2293 8.69694L10.8518 12.4808C10.9103 12.8352 10.5818 13.1128 10.2923 12.9544L6.9991 11.1497L3.7081 12.9544" fill="red"></path>
                         </svg>
                         Client Testimonial
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
-                            <path d="M3.7081 12.9544C3.41861 13.1128 3.09011 12.8352 3.14861 12.4808L3.7711 8.69694L1.12886 6.01223C0.882112 5.76104 1.01036 5.30186 1.34111 5.25226L5.0146 4.69548L6.6526 1.23399C6.80035 0.922003 7.2001 0.922003 7.34785 1.23399L8.98584 4.69548L12.6593 5.25226C12.9901 5.30186 13.1183 5.76104 12.8708 6.01223L10.2293 8.69694L10.8518 12.4808C10.9103 12.8352 10.5818 13.1128 10.2923 12.9544L6.9991 11.1497L3.7081 12.9544Z">
-                            </path>
+                            <path d="M3.7081 12.9544C3.41861 13.1128 3.09011 12.8352 3.14861 12.4808L3.7711 8.69694L1.12886 6.01223C0.882112 5.76104 1.01036 5.30186 1.34111 5.25226L5.0146 4.69548L6.6526 1.23399C6.80035 0.922003 7.2001 0.922003 7.34785 1.23399L8.98584 4.69548L12.6593 5.25226C12.9901 5.30186 13.1183 5.76104 12.8708 6.01223L10.2293 8.69694L10.8518 12.4808C10.9103 12.8352 10.5818 13.1128 10.2923 12.9544L6.9991 11.1497L3.7081 12.9544" fill="red"></path>
                         </svg>
+                    
                     </span>
                     <h2>Inspiring Words from <span>Our Clients </span></h2>
                 </div>
             </div>
         </div>
 
-        {/* <!-- Bootstrap Carousel --> */}
+
         <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                {/* <!-- Slide 1 --> */}
                 <div class="carousel-item active">
                     <div class="row">
                         <div class="col-md-4">
                             <div class="testimBox card shadow border p-3 mb-4 rounded">
                                 <p>IT Planet provided exceptional service with 24/7 support. Mr. Manoj Pote addressed all queries. Highly recommend them!</p>
                                 <p class="rating">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
                                 </p>
                                 <h6>Santosh Deshmukh</h6>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 mb-5"> 
                             <div class="testimBox card shadow border p-3 mb-4 rounded">
                                 <p>Great experience with IT Planet. Delivered the project on time with a cooperative team. Very satisfied with their services!</p>
                                 <p class="rating">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
+                              
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
                                 </p>
                                 <h6>Gaurav Avghade</h6>
                             </div>
@@ -635,11 +630,12 @@ function Home() {
                             <div class="testimBox card shadow border p-3 mb-4 rounded">
                                 <p>IT Planet offers great service at an affordable price. Continued support after website delivery is an added benefit!</p>
                                 <p class="rating">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
+                               
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
                                 </p>
                                 <h6>Milan Bamaniya</h6>
                             </div>
@@ -647,31 +643,32 @@ function Home() {
                     </div>
                 </div>
 
-                {/* <!-- Slide 2 --> */}
                 <div class="carousel-item">
                     <div class="row">
                         <div class="col-md-4">
                             <div class="testimBox card shadow border p-3 mb-4 rounded">
                                 <p>Mr. Manoj from IT Planet did an outstanding job on our website. His support was invaluable. Highly recommend their services!</p>
                                 <p class="rating">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
                                 </p>
                                 <h6>Dr. Uttkarsh Shah</h6>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 mb-5"> 
                             <div class="testimBox card shadow border p-3 mb-4 rounded">
                                 <p>IT Planet is fantastic. They built a website that looks great and performs even better. Highly skilled developers!</p>
                                 <p class="rating">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
+                               
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
                                 </p>
                                 <h6>Yadav Shubham</h6>
                             </div>
@@ -680,11 +677,12 @@ function Home() {
                             <div class="testimBox card shadow border p-3 mb-4 rounded">
                                 <p>Thank you, Manoj sir. It's been a pleasure working with you. My website has been running smoothly for the past two years!</p>
                                 <p class="rating">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
+                                <i class="fa fa-star" aria-hidden="true" style={{color: "#f6b42c"}}></i>
                                 </p>
                                 <h6>Anand Gawde</h6>
                             </div>
@@ -693,7 +691,6 @@ function Home() {
                 </div>
             </div>
 
-            {/* <!-- Carousel Controls --> */}
             <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -706,7 +703,6 @@ function Home() {
     </div>
 </section>
 
-{/* <!-- Include Boot/://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> */}
 
 
 
@@ -714,7 +710,7 @@ function Home() {
 
 
 
-            </div>
+           
           </div>
           </div>
     );
